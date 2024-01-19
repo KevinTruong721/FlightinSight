@@ -1,0 +1,64 @@
+.HomePage {
+    text-align: center;
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    overflow: auto;
+  }
+  
+  
+  .btn-fla {
+    background-color: purple;
+    color: white;
+  }
+  
+  
+  .homepagebutton {
+    width: 220px;
+    height: 70px;
+    top:40%;
+    Left:52%;
+    position: fixed;
+    transform: translate(-50%, -50%); 
+    border-radius: 25px;
+  }
+  
+  .homecontainer {
+    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('plane.png') no-repeat;
+    opacity: 1;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+  
+  
+  .hometext {
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    top:30%;
+    left:52%;
+    transform: translate(-50%, -50%); 
+    color: white;
+  }
+
+  .box {
+    height: 300px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.75);
+    position:absolute;
+    top:15%;
+    left:34%;
+    border-radius: 40px;
+ 
+    
+  }
+ 
+
